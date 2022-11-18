@@ -9,6 +9,8 @@ import { Skill } from "../component/skill/Skill";
 import { COLORFONT, FONTS } from "../../constants";
 import { Introduction } from "../component/introduction/Introduction";
 import { AboutMe } from "../component/aboutMe/AboutMe";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import Link from "@mui/material/Link";
 
 export const Container = () => {
   return (
@@ -72,8 +74,9 @@ export const Container = () => {
       </Box>
       {/* end contact */}
       {/* footer */}
-      <Box sx={{ ml: '45%' }}>
-         <Typography color={COLORFONT.grey}>make by Mahathirtama Ahmad</Typography>
+      <Box sx={{  display: 'flex', justifyContent: 'center', alignItems: 'center', gap: '10px' }}>
+        <Typography color={COLORFONT.grey}>make by Mahathirtama Ahmad</Typography>
+        <Link href="https://github.com/mahathirtama/react-portfolio-tama" target="_blank" rel="noopener noreferrer" ><GitHubIcon sx={{ fontSize: "40px", color: "white" }} /></Link>
       </Box>
       {/* end footer */}
     </Box>
