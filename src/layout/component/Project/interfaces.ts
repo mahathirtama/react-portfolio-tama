@@ -5,4 +5,5 @@ export interface IProject {
   makingWith: string;
   position: string;
   linkGithub: string
+  span: string
 }

@@ -71,6 +71,11 @@ export const Container = () => {
         </Stack>
       </Box>
       {/* end contact */}
+      {/* footer */}
+      <Box sx={{ ml: '45%' }}>
+         <Typography color={COLORFONT.grey}>make by Mahathirtama Ahmad</Typography>
+      </Box>
+      {/* end footer */}
     </Box>
   );
 };

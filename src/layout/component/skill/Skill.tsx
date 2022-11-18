@@ -4,6 +4,7 @@ import { SeederSkill } from "./SeederSkill";
 import { Ul, Small } from "./StyledAnimation";
 import Link from "@mui/material/Link/Link";
 import { COLORFONT } from "../../../constants";
+import { ISkill } from "./Interfaces";
 
 export const Skill = () => {
   const [position, setPosition] = useState({
@@ -26,56 +27,64 @@ export const Skill = () => {
   }, []);
   return (
     <>
-    <Box sx={{ display: { xs: "none", sm: "none", lg: 'block' }, ml: '-20%' }}>
-      <Ul>
-        {SeederSkill.map((skill, i) => (
-          <li key={i}>
-            <span><Link
-                underline="none"
-                href="#"
-                color={COLORFONT.grey}
-                sx={{
-                  "&:hover": {
-                    color: "#61eace",
-                  },
-                }}
-              >
-                {skill.title}
-              </Link></span>
-            <div className="img-cont">
-              <img src={skill.link} alt={skill.title} />
-            </div>
-          </li>
-        ))}
-      </Ul>
+      <Box sx={{ display: { xs: "none", sm: "none", lg: "block" }, ml: "-20%" }}>
+        <Ul>
+          {SeederSkill.map((skill: ISkill, i) => (
+            <li key={i}>
+              <span>
+                <Link
+                  underline="none"
+                  href={skill.linkWeb}
+                  color={COLORFONT.grey}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    "&:hover": {
+                      color: "#61eace",
+                    },
+                  }}
+                >
+                  {skill.title}
+                </Link>
+              </span>
+              <div className="img-cont">
+                <img src={skill.link} alt={skill.title} />
+              </div>
+            </li>
+          ))}
+        </Ul>
 
-      <div style={{ left: `${position.x}px`, top: `${position.y}px` }} className="cursor"></div>
+        <div style={{ left: `${position.x}px`, top: `${position.y}px` }} className="cursor"></div>
       </Box>
-      <Box sx={{ display: { xs: "block", sm: "block", lg: 'none' }, ml: '-50%' }}>
-      <Small>
-        {SeederSkill.map((skill, i) => (
-          <li key={i}>
-            <span><Link
-                underline="none"
-                href="#"
-                color={COLORFONT.grey}
-                sx={{
-                  "&:hover": {
-                    color: "#61eace",
-                  },
-                }}
-              >
-                {skill.title}
-              </Link></span>
-            <div className="img-cont">
-              <img src={skill.link} alt={skill.title} />
-            </div>
-          </li>
-        ))}
-      </Small>
+      <Box sx={{ display: { xs: "block", sm: "block", lg: "none" }, ml: "-50%" }}>
+        <Small>
+          {SeederSkill.map((skill, i) => (
+            <li key={i}>
+              <span>
+                <Link
+                  underline="none"
+                  href={skill.linkWeb}
+                  color={COLORFONT.grey}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  sx={{
+                    "&:hover": {
+                      color: "#61eace",
+                    },
+                  }}
+                >
+                  {skill.title}
+                </Link>
+              </span>
+              <div className="img-cont">
+                <img src={skill.link} alt={skill.title} />
+              </div>
+            </li>
+          ))}
+        </Small>
 
-      <div style={{ left: `${position.x}px`, top: `${position.y}px` }} className="cursor"></div>
+        <div style={{ left: `${position.x}px`, top: `${position.y}px` }} className="cursor"></div>
       </Box>
-      </>
+    </>
   );
 };

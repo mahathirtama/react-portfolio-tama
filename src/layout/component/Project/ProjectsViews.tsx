@@ -19,7 +19,7 @@ export const ProjectsViews = () => {
             <Img src={project.link} width="581px" height="359px" alt="Mahathirtama Ahmad" />
           </Box>
           <Stack direction="column" alignItems={project.position === "left" ? "flex-end" : "flex-start"} justifyContent="center" spacing={4} sx={project.position === "left" ? { zIndex: 1, ml: "-150px" } : { zIndex: 1, mr: "-150px" }}>
-            <Typography color={COLORFONT.green}>Learn Project</Typography>
+            <Typography color={COLORFONT.green}>{project.span}</Typography>
             <Typography color="white" variant="h5">{project.title}</Typography>
             <Card variant="outlined" sx={{ backgroundColor: "#112240" }}>
               <CardContent>
