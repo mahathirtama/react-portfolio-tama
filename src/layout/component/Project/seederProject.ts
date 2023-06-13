@@ -44,4 +44,22 @@ export const projects = [
     position: 'left',
     linkGithub: "https://github.com/mahathirtama/menu-makanan"
   },
+  {
+    title: "Travel (laravel)",
+    span: 'Individual',
+    link: "https://i.ibb.co/fNPzpJN/travel-laravel.png",
+    description: "this aplication i make it when i was studying at Bootcamp Pesona Optima Jasa, created with laravel",
+    makingWith: 'PHP, Laravel, MySQL',
+    position: 'right',
+    linkGithub: "https://github.com/mahathirtama/travelark"
+  },
+    {
+    title: "Travel (golang)",
+    span: 'Individual',
+    link: "https://i.ibb.co/hV1Yss3/travel-golang.png",
+    description: "this application same as travel in laravel but i implement such golang",
+    makingWith: 'Golang, Postgres',
+    position: 'left',
+    linkGithub: "https://gitlab.com/mahathirtama/travel-golang"
+  },
 ];
