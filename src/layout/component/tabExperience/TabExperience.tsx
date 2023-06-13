@@ -46,6 +46,7 @@ export const TabExperience = () => {
           <Tab label="NusaNet" sx={{ color: "#c1cbea" }} />
           <Tab label="BPS" sx={{ color: "#c1cbea" }} />
           <Tab label="Systeric" sx={{ color: "#c1cbea" }} />
+          <Tab label="Platon" sx={{ color: "#c1cbea" }} />
         </Tabs>
         <TabPanel value={value} index={0}>
            when SMK i intern in {" "}
@@ -67,6 +68,13 @@ export const TabExperience = () => {
             PT Systeric Teknologi Indonesia
           </Link>
           , my role is Frontend
+        </TabPanel>
+        <TabPanel value={value} index={3}>
+          after graduated i joined {" "}
+          <Link underline="none" href="https://platon.co.id/" target="_blank" rel="noopener noreferrer" color={COLORFONT.green}>
+            PT Sinergi Rajawali Mataram / Platon {" "}
+          </Link>
+           for one mounth, my role is Laravel Developer
         </TabPanel>
       </Box>
 

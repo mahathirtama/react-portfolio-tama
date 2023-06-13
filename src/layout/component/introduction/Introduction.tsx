@@ -18,10 +18,10 @@ export const Introduction = () => {
           I build things for the web.
         </Typography>
         <Typography color={COLORFONT.grey} sx={FONTS.openSans}>
-          I'm a software engineer specializing in Frontend Engineer
+          I'm a software engineer specializing in Web Developer
         </Typography>
         <Stack direction="row" spacing={3} alignItems="center" >
-          <Button variant="outlined" color="primary" sx={{ '&.MuiButton-outlinedPrimary': {borderColor: '#61eace'},   "&.MuiButton-outlined": {color: '#61eace'} }}><Link color={COLORFONT.green}  underline="none" href="https://drive.google.com/file/d/1M2RVmJhQX5vUH4RPmY66Hts6IwhAYi4l/view" target="_blank" rel="noopener noreferrer" >Resume</Link></Button>
+          <Button variant="outlined" color="primary" sx={{ '&.MuiButton-outlinedPrimary': {borderColor: '#61eace'},   "&.MuiButton-outlined": {color: '#61eace'} }}><Link color={COLORFONT.green}  underline="none" href="https://drive.google.com/file/d/1_WTJe7A8PmQ4UcC2EyLfsUghJK215aJU/view" target="_blank" rel="noopener noreferrer" >Resume</Link></Button>
             <Button variant="outlined" color="primary" sx={{ '&.MuiButton-outlinedPrimary': {borderColor: '#61eace'},   "&.MuiButton-outlined": {color: '#61eace'} }}><Link color={COLORFONT.green}  underline="none" href="https://drive.google.com/file/d/1EMTS8eWghd4IG0MteR7LhaMEq_HrXgBf/view" target="_blank" rel="noopener noreferrer" >Certificate</Link></Button>
         </Stack>
       </Stack>
@@ -34,10 +34,10 @@ export const Introduction = () => {
           I build things for the web.
         </Typography>
         <Typography color={COLORFONT.grey} sx={FONTS.openSans}>
-          I'm a software engineer specializing in building (and occasionally designing) exceptional digital experiences. Currently, I'm focused on building accessible, human-centered products at Upstatement.
+          I'm a software engineer specializing in Web Developer
         </Typography>
         <Stack direction="row" spacing={3} >
-          <Button variant="outlined" color="primary" sx={{ '&.MuiButton-outlinedPrimary': {borderColor: '#61eace'},   "&.MuiButton-outlined": {color: '#61eace'} }}><Link color={COLORFONT.green}  underline="none" href="https://drive.google.com/file/d/1M2RVmJhQX5vUH4RPmY66Hts6IwhAYi4l/view" target="_blank" rel="noopener noreferrer" >Resume</Link></Button>
+          <Button variant="outlined" color="primary" sx={{ '&.MuiButton-outlinedPrimary': {borderColor: '#61eace'},   "&.MuiButton-outlined": {color: '#61eace'} }}><Link color={COLORFONT.green}  underline="none" href="https://drive.google.com/file/d/1_WTJe7A8PmQ4UcC2EyLfsUghJK215aJU/view" target="_blank" rel="noopener noreferrer" >Resume</Link></Button>
             <Button variant="outlined" color="primary" sx={{ '&.MuiButton-outlinedPrimary': {borderColor: '#61eace'},   "&.MuiButton-outlined": {color: '#61eace'} }}><Link color={COLORFONT.green}  underline="none" href="https://drive.google.com/file/d/1EMTS8eWghd4IG0MteR7LhaMEq_HrXgBf/view" target="_blank" rel="noopener noreferrer" >Certificate</Link></Button>
         </Stack>
       </Stack>

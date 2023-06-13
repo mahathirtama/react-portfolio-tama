@@ -21,8 +21,23 @@ export const SeederSkill = [
     },
     {
         title: "PHP",
-        link: "https://i.ibb.co/KLVdrPp/php.png",
+        link: "https://i.ibb.co/1R0V9Lc/golang.png",
         linkWeb: "https://www.php.net/"
+    },
+    {
+        title: "Golang",
+        link: "https://i.ibb.co/zn37dwf/git.png",
+        linkWeb: "https://go.dev/"
+    },
+    {
+        title: "Java",
+        link: "https://i.ibb.co/QFTLDDm/java.png",
+        linkWeb: "https://www.java.com/en/"
+    },
+    {
+        title: "Springboot",
+        link: "https://i.ibb.co/xMVZyQ0/springboot.png",
+        linkWeb: "https://spring.io/projects/spring-boot"
     },
     {
         title: "TypeScript",
@@ -49,4 +64,5 @@ export const SeederSkill = [
         link: "https://i.ibb.co/zn37dwf/git.png",
         linkWeb: "https://git-scm.com/"
     },
+    
 ]
