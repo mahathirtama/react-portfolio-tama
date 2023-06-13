@@ -21,12 +21,12 @@ export const SeederSkill = [
     },
     {
         title: "PHP",
-        link: "https://i.ibb.co/1R0V9Lc/golang.png",
+        link: "https://i.ibb.co/KLVdrPp/php.png",
         linkWeb: "https://www.php.net/"
     },
-    {
+     {
         title: "Golang",
-        link: "https://i.ibb.co/zn37dwf/git.png",
+        link: "https://i.ibb.co/1R0V9Lc/golang.png",
         linkWeb: "https://go.dev/"
     },
     {
